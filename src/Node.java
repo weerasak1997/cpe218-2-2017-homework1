@@ -1,5 +1,5 @@
 public class Node {
-    char letter;
+    Character letter;
 
     Node left;
     Node right;
@@ -12,4 +12,8 @@ public class Node {
 
     }
 
+    @Override
+    public String toString() {
+        return letter.toString();
+    }
 }
